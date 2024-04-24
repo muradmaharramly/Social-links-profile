@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+*{
+    font-family: 'Inter', sans-serif;;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    background-color: hsl(0, 0%, 8%);
+    text-align: center;
+    max-width: 1440px;
+}
+/*SAME PROPERTY*/
+p{
+    font-weight: 500;
+    font-size: 14px;
+}
+/*MAIN DIV*/
+.frame{
+    color: hsl(0, 0%, 100%);
+    padding: 30px;
+    margin-top: 8%;
+    margin-bottom: 3%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    background-color: hsl(0, 0%, 12%);
+    width: 340px;
+    height: auto;
+    border-radius: 0.6em;
+    -webkit-border-radius: 0.6em;
+    -moz-border-radius: 0.6em;
+    -ms-border-radius: 0.6em;
+    -o-border-radius: 0.6em;
+}
+.frame img{
+    width: 85px;
+    margin: 4% 30%;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.frame h1{
+    font-size: 1.4em;
+    font-weight: 600;
+}
+.frame a{
+    font-size: 0.8em;
+    font-weight: 600;
+    display: block;
+    background-color: hsl(0, 0%, 20%);
+    color: hsl(0, 0%, 100%);
+    margin: 4% 0%;
+    padding: 10px 20px;
+    border-radius: 0.6em;
+    -webkit-border-radius: 0.6em;
+    -moz-border-radius: 0.6em;
+    -ms-border-radius: 0.6em;
+    -o-border-radius: 0.6em;
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+}
+.frame a:hover{
+    color: hsl(0, 0%, 12%);
+    background-color: hsl(75, 94%, 57%);
+}
+.green{
+    color: hsl(75, 94%, 57%);
+    padding: 10px;
+    font-size: 0.8em;
+}
+.normal-p{
+    font-size: 0.8em;
+    padding: 12px 0;
+    font-weight: 300;
+}
+@media only screen and (max-width: 1024px) {
+    body{
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 992px) {
+    body{
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 450px) {
+    body{
+        width: 100%;
+    }
+}
+
